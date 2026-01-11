@@ -1,0 +1,8 @@
+# Chalice デプロイ専用の依存関係ファイル
+# Chalice は requirements.txt を使用して Lambda にデプロイする依存関係を決定します
+# 開発環境の依存関係は pyproject.toml で管理してください
+#
+# Lambda にデプロイする依存関係をここに追加:
+# 例:
+# requests
+# boto3

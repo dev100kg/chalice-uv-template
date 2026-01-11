@@ -1,0 +1,30 @@
+[project]
+name = "chalice-uv-template"
+version = "0.1.0"
+description = "AWS Chalice project template with uv"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.13"
+dependencies = [
+    "chalice>=1.31.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.8.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
