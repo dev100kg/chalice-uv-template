@@ -14,6 +14,13 @@ AWS Chalice project template with uv
 # Install dependencies
 uv sync
 
+# Copy environment file and configure AWS credentials
+cp .envrc.example .envrc
+# Edit .envrc with your AWS credentials
+
+# Allow direnv to load environment variables
+direnv allow
+
 # Install dev dependencies
 uv sync --extra dev
 ```
