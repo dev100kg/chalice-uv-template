@@ -7,6 +7,7 @@ AWS Chalice project template with uv
 - Python 3.13+
 - [uv](https://github.com/astral-sh/uv)
 - AWS CLI (configured)
+- direnv (optional, for environment management)
 
 ## Setup
 
