@@ -55,9 +55,14 @@ uv run chalice delete
 
 ```
 .
+├── .chalice/
+│   └── config.json     # Chalice configuration
+├── .envrc.example      # Environment variables template
+├── .gitignore
+├── .python-version     # Python version for uv
+├── LICENSE             # MIT License
+├── README.md
 ├── app.py              # Main application
-├── requirements.txt    # Lambda dependencies
 ├── pyproject.toml      # Project configuration
-└── .chalice/
-    └── config.json     # Chalice configuration
+└── requirements.txt    # Lambda dependencies
 ```
