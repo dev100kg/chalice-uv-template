@@ -57,6 +57,9 @@ uv run chalice delete
 .
 ├── .chalice/
 │   └── config.json     # Chalice configuration
+├── tests/
+│   ├── __init__.py
+│   └── test_app.py     # Basic tests
 ├── .envrc.example      # Environment variables template
 ├── .gitignore
 ├── .python-version     # Python version for uv
